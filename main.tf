@@ -15,5 +15,5 @@ module "terraform-aws-tfc" {
   source  = "app.terraform.io/marina-org/tfc/aws"
   public_subnet   = var.public_subnet
   ingressrules = var.ingressrules
-  version = "1.0.0"
+  version = "2.0.0"
 }
