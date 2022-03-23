@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 module "terraform-aws-tfc" {
-  source  = "app.terraform.io/marina-org/terraform/tfc/aws"
+  source  = "app.terraform.io/marina-org/tfc/aws"
   public_subnet   = var.public_subnet
   ingressrules = var.ingressrules
   version = "1.0.0"
